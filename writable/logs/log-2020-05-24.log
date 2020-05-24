@@ -1,0 +1,14 @@
+CRITICAL - 2020-05-24 00:06:33 --> Cannot call constructor
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-24 00:06:48 --> Cannot call constructor
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
