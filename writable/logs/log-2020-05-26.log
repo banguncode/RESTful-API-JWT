@@ -1,0 +1,161 @@
+CRITICAL - 2020-05-26 02:05:18 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2020-05-26 02:05:31 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2020-05-26 02:06:32 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2020-05-26 02:07:45 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2020-05-26 02:08:03 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2020-05-26 02:12:58 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2020-05-26 02:14:04 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2020-05-26 02:19:00 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2020-05-26 02:42:37 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2020-05-26 02:43:05 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2020-05-26 03:39:42 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2020-05-26 03:39:56 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2020-05-26 03:40:30 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2020-05-26 03:49:36 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2020-05-26 04:14:38 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-26 04:23:04 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2020-05-26 04:24:34 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2020-05-26 05:14:12 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\SERVER\htdocs\restful-api-jwt\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\SERVER\htdocs\restful-api-jwt\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\SERVER\htdocs\restful-api-jwt\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(625): cache()
+#4 C:\SERVER\htdocs\restful-api-jwt\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
