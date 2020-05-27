@@ -159,3 +159,1859 @@ CRITICAL - 2020-05-26 05:14:12 --> Class 'CodeIgniter\Cache\CacheFactory' not fo
 #5 C:\SERVER\htdocs\restful-api-jwt\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
 #6 C:\SERVER\htdocs\restful-api-jwt\spark(57): CodeIgniter\CLI\Console->run()
 #7 {main}
+CRITICAL - 2020-05-26 08:24:13 --> Call to undefined method App\Controllers\Auth::respond()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 08:33:03 --> Argument 1 passed to App\Controllers\Auth::failValidationError() must be of the type string, array given, called in C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php on line 27
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(27): App\Controllers\Auth->failValidationError(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 08:34:35 --> Call to undefined method App\Controllers\Auth::table()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 08:39:33 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to int
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\SERVER\\htdoc...', 42, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 08:40:02 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 08:40:05 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 08:40:06 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 08:40:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 08:40:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 08:40:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 08:40:38 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 10:21:26 --> Class 'App\Models\User' not found
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\Auth->__construct()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 10:22:22 --> Undefined variable: email
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Models\Users.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 26, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(38): App\Models\Users->get_user('rum.haidar@hotm...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#7 {main}
+CRITICAL - 2020-05-26 10:24:15 --> Undefined variable: query
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 40, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 10:33:55 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 10:34:14 --> Call to undefined method App\Controllers\Auth::encode()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 10:36:41 --> Call to undefined function App\Controllers\encode()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 10:36:52 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): jajal(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 10:37:03 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 10:37:59 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 10:38:00 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 10:38:07 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 10:38:29 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 10:38:31 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 10:38:41 --> Call to undefined function respond()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 10:38:45 --> Call to undefined function respond()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 10:39:12 --> syntax error, unexpected 'use' (T_USE)
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(16): helper(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\Auth->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 10:39:59 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 10:43:59 --> Cannot instantiate trait CodeIgniter\API\ResponseTrait
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 10:55:05 --> Syntax error, malformed JSON
+#0 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(299): Firebase\JWT\JWT::handleJsonError(4)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(86): Firebase\JWT\JWT::jsonDecode('zw(u\xE7^\xC8\x9D\x1E\\\x08\x8E\x88\x92\x95...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(75): Firebase\JWT\JWT::decode('{"encoded":"eyJ...', '-----BEGIN PUBL...', Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(44): decode('{"encoded":"eyJ...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 10:55:05 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\SERVER\htdocs\RESTful-API-JWT\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-26 10:57:15 --> Unexpected control character found
+#0 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(299): Firebase\JWT\JWT::handleJsonError(3)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(86): Firebase\JWT\JWT::jsonDecode('\x12w(u\xE7\xB2'G\x97\x02#\xA2$\xA5u...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(77): Firebase\JWT\JWT::decode('Encode:\neyJ0eXA...', '-----BEGIN PUBL...', Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(44): decode('Encode:\neyJ0eXA...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 10:57:15 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\SERVER\htdocs\RESTful-API-JWT\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-26 10:58:35 --> Unexpected control character found
+#0 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(299): Firebase\JWT\JWT::handleJsonError(3)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(86): Firebase\JWT\JWT::jsonDecode('\x12w(u\xE7\xB2'G\x97\x02#\xA2$\xA5u...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(77): Firebase\JWT\JWT::decode('{"Encode":"eyJ0...', '-----BEGIN PUBL...', Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(44): decode('{"Encode":"eyJ0...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 10:58:35 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\SERVER\htdocs\RESTful-API-JWT\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-26 10:58:48 --> Unexpected control character found
+#0 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(299): Firebase\JWT\JWT::handleJsonError(3)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(86): Firebase\JWT\JWT::jsonDecode('\x12w(u\xE7\xB2'G\x97\x02#\xA2$\xA5u...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(77): Firebase\JWT\JWT::decode('{"Encode":"eyJ0...', '-----BEGIN PUBL...', Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(44): decode('{"Encode":"eyJ0...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 10:58:48 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\SERVER\htdocs\RESTful-API-JWT\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-26 10:58:56 --> Unexpected control character found
+#0 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(299): Firebase\JWT\JWT::handleJsonError(3)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(86): Firebase\JWT\JWT::jsonDecode('\x12w(u\xE7\xB2'G\x97\x02#\xA2$\xA5u...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(77): Firebase\JWT\JWT::decode('{"Encode":"eyJ0...', '-----BEGIN PUBL...', Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(44): decode('{"Encode":"eyJ0...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 10:58:56 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\SERVER\htdocs\RESTful-API-JWT\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-26 10:58:58 --> Unexpected control character found
+#0 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(299): Firebase\JWT\JWT::handleJsonError(3)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(86): Firebase\JWT\JWT::jsonDecode('\x12w(u\xE7\xB2'G\x97\x02#\xA2$\xA5u...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(77): Firebase\JWT\JWT::decode('{"Encode":"eyJ0...', '-----BEGIN PUBL...', Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(44): decode('{"Encode":"eyJ0...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 10:58:58 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\SERVER\htdocs\RESTful-API-JWT\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-26 10:58:59 --> Unexpected control character found
+#0 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(299): Firebase\JWT\JWT::handleJsonError(3)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(86): Firebase\JWT\JWT::jsonDecode('\x12w(u\xE7\xB2'G\x97\x02#\xA2$\xA5u...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(77): Firebase\JWT\JWT::decode('{"Encode":"eyJ0...', '-----BEGIN PUBL...', Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(44): decode('{"Encode":"eyJ0...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 10:58:59 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\SERVER\htdocs\RESTful-API-JWT\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-26 11:00:04 --> Unexpected control character found
+#0 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(299): Firebase\JWT\JWT::handleJsonError(3)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(86): Firebase\JWT\JWT::jsonDecode('\x12w(u\xE7\xB2'G\x97\x02#\xA2$\xA5u...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(77): Firebase\JWT\JWT::decode('Encode:\neyJ0eXA...', '-----BEGIN PUBL...', Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(44): decode('Encode:\neyJ0eXA...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 11:00:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\SERVER\htdocs\RESTful-API-JWT\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-26 11:01:10 --> Unexpected control character found
+#0 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(299): Firebase\JWT\JWT::handleJsonError(3)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(86): Firebase\JWT\JWT::jsonDecode('\x12w(u\xE7\xB2'G\x97\x02#\xA2$\xA5u...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(77): Firebase\JWT\JWT::decode('Encode:\neyJ0eXA...', '-----BEGIN PUBL...', Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(44): decode('Encode:\neyJ0eXA...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 11:01:10 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\SERVER\htdocs\RESTful-API-JWT\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-26 11:01:12 --> Unexpected control character found
+#0 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(299): Firebase\JWT\JWT::handleJsonError(3)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(86): Firebase\JWT\JWT::jsonDecode('\x12w(u\xE7\xB2'G\x97\x02#\xA2$\xA5u...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(77): Firebase\JWT\JWT::decode('Encode:\neyJ0eXA...', '-----BEGIN PUBL...', Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(44): decode('Encode:\neyJ0eXA...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 11:01:12 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\SERVER\htdocs\RESTful-API-JWT\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-26 11:02:00 --> Unexpected control character found
+#0 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(299): Firebase\JWT\JWT::handleJsonError(3)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(86): Firebase\JWT\JWT::jsonDecode('\x12w(u\xE7\xB2'G\x97\x02#\xA2$\xA5u...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(78): Firebase\JWT\JWT::decode('Encode:\neyJ0eXA...', '-----BEGIN PUBL...', Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(44): decode('Encode:\neyJ0eXA...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 11:02:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\SERVER\htdocs\RESTful-API-JWT\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-26 11:02:01 --> Unexpected control character found
+#0 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(299): Firebase\JWT\JWT::handleJsonError(3)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(86): Firebase\JWT\JWT::jsonDecode('\x12w(u\xE7\xB2'G\x97\x02#\xA2$\xA5u...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(78): Firebase\JWT\JWT::decode('Encode:\neyJ0eXA...', '-----BEGIN PUBL...', Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(44): decode('Encode:\neyJ0eXA...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 11:02:01 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\SERVER\htdocs\RESTful-API-JWT\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-26 11:02:13 --> Unexpected control character found
+#0 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(299): Firebase\JWT\JWT::handleJsonError(3)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(86): Firebase\JWT\JWT::jsonDecode('\x12w(u\xE7\xB2'G\x97\x02#\xA2$\xA5u...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(78): Firebase\JWT\JWT::decode('Encode:\neyJ0eXA...', '-----BEGIN PUBL...', Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(44): decode('Encode:\neyJ0eXA...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 11:02:13 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\SERVER\htdocs\RESTful-API-JWT\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-26 11:02:15 --> Call to undefined function public_kesy()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(44): decode('Encode:\neyJ0eXA...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:02:28 --> Unexpected control character found
+#0 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(299): Firebase\JWT\JWT::handleJsonError(3)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(86): Firebase\JWT\JWT::jsonDecode('\x12w(u\xE7\xB2'G\x97\x02#\xA2$\xA5u...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(78): Firebase\JWT\JWT::decode('Encode:\neyJ0eXA...', '-----BEGIN PUBL...', Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(44): decode('Encode:\neyJ0eXA...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 11:02:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\SERVER\htdocs\RESTful-API-JWT\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-26 11:06:03 --> Cannot use object of type stdClass as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 11:06:06 --> Cannot use object of type stdClass as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 11:06:45 --> syntax error, unexpected '$decode' (T_VARIABLE)
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('auth/check_logi...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('auth/check_logi...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:07:26 --> syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('auth/check_logi...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('auth/check_logi...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:07:38 --> Cannot use object of type stdClass as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 11:07:40 --> Cannot use object of type stdClass as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 11:07:41 --> Cannot use object of type stdClass as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 11:07:53 --> Cannot use object of type stdClass as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 11:07:54 --> Cannot use object of type stdClass as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 11:07:56 --> Cannot use object of type stdClass as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 11:08:00 --> Cannot use object of type stdClass as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 11:08:02 --> Cannot use object of type stdClass as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 11:08:03 --> Cannot use object of type stdClass as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 11:08:06 --> Cannot use object of type stdClass as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 11:08:54 --> Cannot use object of type stdClass as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 11:09:28 --> Cannot use object of type stdClass as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 11:09:33 --> Cannot use object of type stdClass as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 11:16:36 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:16:38 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:18:41 --> Undefined variable: output
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 43, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:20:19 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:20:39 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:20:41 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:20:42 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:21:14 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:21:14 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:21:15 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:21:16 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:21:55 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:21:56 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:21:57 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:21:58 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:21:59 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:21:59 --> Using $this when not in object context
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:22:22 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(16): helper(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\Auth->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:22:31 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(16): helper(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\Auth->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:23:01 --> Non-static method CodeIgniter\HTTP\Response::setStatusCode() should not be called statically
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'C:\\SERVER\\htdoc...', 48, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#7 {main}
+CRITICAL - 2020-05-26 11:23:32 --> Access to undeclared static property: CodeIgniter\HTTP\Response::$this
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:24:20 --> Undefined constant 'CodeIgniter\HTTP\Response'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:24:28 --> Undefined constant 'CodeIgniter\HTTP\Response'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:24:29 --> Undefined constant 'CodeIgniter\HTTP\Response'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(41): encode()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:25:36 --> Undefined variable: output
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 43, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:26:28 --> Undefined variable: output
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 43, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:27:17 --> Undefined variable: output
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 43, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:27:18 --> Undefined variable: output
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 43, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:27:48 --> Undefined variable: output
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 43, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:29:28 --> Undefined variable: output
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 43, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:29:29 --> Undefined variable: output
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 43, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:29:30 --> Undefined variable: output
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 43, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:29:59 --> Undefined variable: output
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 42, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:30:00 --> Undefined variable: output
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 42, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 11:51:33 --> Undefined variable: request
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 68, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(35): decode('authorization')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#7 {main}
+CRITICAL - 2020-05-26 11:51:51 --> Wrong number of segments
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(73): Firebase\JWT\JWT::decode('authorization', '-----BEGIN PUBL...', Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(35): decode('authorization')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#7 {main}
+CRITICAL - 2020-05-26 11:52:24 --> Wrong number of segments
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(73): Firebase\JWT\JWT::decode('ds', '-----BEGIN PUBL...', Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(35): decode('ds')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#7 {main}
+CRITICAL - 2020-05-26 11:52:56 --> Wrong number of segments
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(73): Firebase\JWT\JWT::decode('ds', '-----BEGIN PUBL...', Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(35): decode('ds')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#7 {main}
+CRITICAL - 2020-05-26 11:55:52 --> openssl_verify(): supplied key param cannot be coerced into a public key
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_verify(...', 'C:\\SERVER\\htdoc...', 243, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(243): openssl_verify('eyJ0eXAiOiJKV1Q...', '4\x19\x06\x7F\xA7\xC4\x18\x9D,\xD9\x97\xD1\t!y...', '-----BEGIN RSA ...', 'SHA256')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(121): Firebase\JWT\JWT::verify('eyJ0eXAiOiJKV1Q...', '4\x19\x06\x7F\xA7\xC4\x18\x9D,\xD9\x97\xD1\t!y...', '-----BEGIN RSA ...', 'RS256')
+#3 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(73): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', '-----BEGIN RSA ...', Array)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(35): decode('eyJ0eXAiOiJKV1Q...')
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#10 {main}
+CRITICAL - 2020-05-26 11:55:52 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\SERVER\htdocs\RESTful-API-JWT\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-26 11:56:25 --> syntax error, unexpected ')', expecting ']'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 11:56:48 --> openssl_verify(): supplied key param cannot be coerced into a public key
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_verify(...', 'C:\\SERVER\\htdoc...', 243, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(243): openssl_verify('eyJ0eXAiOiJKV1Q...', '4\x19\x06\x7F\xA7\xC4\x18\x9D,\xD9\x97\xD1\t!y...', '-----BEGIN RSA ...', 'SHA256')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\vendor\firebase\php-jwt\src\JWT.php(121): Firebase\JWT\JWT::verify('eyJ0eXAiOiJKV1Q...', '4\x19\x06\x7F\xA7\xC4\x18\x9D,\xD9\x97\xD1\t!y...', '-----BEGIN RSA ...', 'RS256')
+#3 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(73): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', '-----BEGIN RSA ...', Array)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(35): decode('eyJ0eXAiOiJKV1Q...')
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#10 {main}
+CRITICAL - 2020-05-26 11:56:48 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\SERVER\htdocs\RESTful-API-JWT\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-26 12:00:38 --> Signature verification failed
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(73): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', '-----BEGIN PUBL...', Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(40): decode('eyJ0eXAiOiJKV1Q...')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#7 {main}
+CRITICAL - 2020-05-26 12:01:11 --> syntax error, unexpected '\' (T_NS_SEPARATOR), expecting identifier (T_STRING) or '{'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(19): helper(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:02:55 --> syntax error, unexpected '\' (T_NS_SEPARATOR), expecting identifier (T_STRING) or '{'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(20): helper(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:03:03 --> syntax error, unexpected '\' (T_NS_SEPARATOR), expecting identifier (T_STRING) or '{'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(20): helper(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:03:04 --> syntax error, unexpected '\' (T_NS_SEPARATOR), expecting identifier (T_STRING) or '{'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(20): helper(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:03:05 --> syntax error, unexpected '\' (T_NS_SEPARATOR), expecting identifier (T_STRING) or '{'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(20): helper(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:03:06 --> syntax error, unexpected '\' (T_NS_SEPARATOR), expecting identifier (T_STRING) or '{'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(20): helper(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:03:06 --> syntax error, unexpected '\' (T_NS_SEPARATOR), expecting identifier (T_STRING) or '{'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(20): helper(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:03:09 --> syntax error, unexpected '\' (T_NS_SEPARATOR), expecting identifier (T_STRING) or '{'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(20): helper(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:03:26 --> syntax error, unexpected '\' (T_NS_SEPARATOR), expecting identifier (T_STRING) or '{'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(20): helper(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:03:26 --> syntax error, unexpected '\' (T_NS_SEPARATOR), expecting identifier (T_STRING) or '{'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(20): helper(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:03:27 --> syntax error, unexpected '\' (T_NS_SEPARATOR), expecting identifier (T_STRING) or '{'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(20): helper(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:04:04 --> Object of class stdClass could not be converted to string
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:04:25 --> Object of class stdClass could not be converted to string
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:04:26 --> Array to string conversion
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\SERVER\\htdoc...', 42, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:04:27 --> Array to string conversion
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\SERVER\\htdoc...', 42, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:04:28 --> Array to string conversion
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\SERVER\\htdoc...', 42, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:04:31 --> Array to string conversion
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\SERVER\\htdoc...', 42, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:09:37 --> syntax error, unexpected 'sas' (T_STRING), expecting ']'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(20): helper(Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:23:27 --> Wrong number of segments
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(73): Firebase\JWT\JWT::decode('s', '-----BEGIN PUBL...', Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(48): decode('s')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#7 {main}
+CRITICAL - 2020-05-26 12:24:02 --> Wrong number of segments
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(73): Firebase\JWT\JWT::decode('s', '-----BEGIN PUBL...', Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(45): decode('s')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#7 {main}
+CRITICAL - 2020-05-26 12:24:03 --> Wrong number of segments
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(73): Firebase\JWT\JWT::decode('s', '-----BEGIN PUBL...', Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(45): decode('s')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#7 {main}
+CRITICAL - 2020-05-26 12:24:05 --> Wrong number of segments
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(73): Firebase\JWT\JWT::decode('s', '-----BEGIN PUBL...', Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(45): decode('s')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#7 {main}
+CRITICAL - 2020-05-26 12:24:07 --> Wrong number of segments
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(73): Firebase\JWT\JWT::decode('s', '-----BEGIN PUBL...', Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(45): decode('s')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#7 {main}
+CRITICAL - 2020-05-26 12:24:08 --> Wrong number of segments
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Helpers\authorization_helper.php(73): Firebase\JWT\JWT::decode('s', '-----BEGIN PUBL...', Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(45): decode('s')
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#7 {main}
+CRITICAL - 2020-05-26 12:29:22 --> Call to undefined function App\Controllers\_auth()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:29:23 --> Call to undefined function App\Controllers\_auth()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:29:24 --> Call to undefined function App\Controllers\_auth()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:30:45 --> Call to undefined method App\Controllers\User::_auth()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:30:46 --> Call to undefined method App\Controllers\User::_auth()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:30:52 --> Call to undefined method App\Controllers\User::_auth()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:37:45 --> Call to a member function getServer() on null
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:37:46 --> Call to a member function getServer() on null
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:37:47 --> Call to a member function getServer() on null
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:40:13 --> Call to a member function getServer() on null
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(20): App\Controllers\User->autho()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:40:17 --> Call to a member function getServer() on null
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(21): App\Controllers\User->autho()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:41:04 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:43:43 --> Undefined variable: response
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 27, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:44:07 --> Undefined variable: response
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 28, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:44:08 --> Undefined variable: response
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 28, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:44:08 --> Undefined variable: response
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 28, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:44:09 --> Undefined variable: response
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 28, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:44:10 --> Undefined variable: response
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 28, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:44:21 --> Undefined variable: response
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 28, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:44:22 --> Undefined variable: response
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 28, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:44:26 --> Undefined variable: response
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 28, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:44:27 --> Undefined variable: response
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 28, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:44:27 --> Undefined variable: response
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 28, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:44:28 --> Undefined variable: response
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 28, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:44:28 --> Undefined variable: response
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 28, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:46:02 --> Too few arguments to function CodeIgniter\HTTP\Response::__construct(), 0 passed in C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php on line 22 and exactly 1 expected
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(22): CodeIgniter\HTTP\Response->__construct()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:46:15 --> syntax error, unexpected 'use' (T_USE)
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:46:16 --> syntax error, unexpected 'use' (T_USE)
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:46:23 --> syntax error, unexpected 'use' (T_USE)
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:46:24 --> syntax error, unexpected 'use' (T_USE)
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:46:38 --> App\Controllers\User cannot use CodeIgniter\HTTP\Response - it is not a trait
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-26 12:48:53 --> Call to undefined function App\Controllers\getStatusCode()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:48:54 --> Call to undefined function App\Controllers\getStatusCode()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:48:55 --> Call to undefined function App\Controllers\getStatusCode()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:48:58 --> Call to undefined function App\Controllers\getStatusCode()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:48:59 --> Undefined variable: response
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 28, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:49:44 --> Class 'App\Controllers\CodeIgniter\HTTP\Response' not found
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:51:21 --> Non-static method CodeIgniter\HTTP\Response::getStatusCode() should not be called statically
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'C:\\SERVER\\htdoc...', 28, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:51:22 --> Non-static method CodeIgniter\HTTP\Response::getStatusCode() should not be called statically
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'C:\\SERVER\\htdoc...', 28, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:52:23 --> Non-static method CodeIgniter\HTTP\Response::getStatusCode() should not be called statically
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'C:\\SERVER\\htdoc...', 22, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:52:24 --> Non-static method CodeIgniter\HTTP\Response::getStatusCode() should not be called statically
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'C:\\SERVER\\htdoc...', 22, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:52:25 --> Non-static method CodeIgniter\HTTP\Response::getStatusCode() should not be called statically
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'C:\\SERVER\\htdoc...', 22, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:53:55 --> Non-static method CodeIgniter\HTTP\Response::getStatusCode() should not be called statically
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'C:\\SERVER\\htdoc...', 22, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:53:56 --> Non-static method CodeIgniter\HTTP\Response::getStatusCode() should not be called statically
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'C:\\SERVER\\htdoc...', 22, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:53:57 --> Non-static method CodeIgniter\HTTP\Response::getStatusCode() should not be called statically
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'C:\\SERVER\\htdoc...', 22, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:53:58 --> Non-static method CodeIgniter\HTTP\Response::getStatusCode() should not be called statically
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'C:\\SERVER\\htdoc...', 22, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:54:29 --> Undefined constant 'CodeIgniter\HTTP\Response'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:54:40 --> Call to undefined function CodeIgniter\HTTP\Response()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:54:42 --> Call to undefined function CodeIgniter\HTTP\Response()
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(886): App\Controllers\User->__construct()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:55:47 --> Undefined variable: response
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 30, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 12:56:06 --> syntax error, unexpected ''\CodeIgniter\HTTP\Response'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:56:17 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:56:18 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:56:19 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:56:35 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:56:37 --> syntax error, unexpected ')'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:56:37 --> syntax error, unexpected ')'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:56:41 --> syntax error, unexpected ')'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:57:20 --> syntax error, unexpected 'privates' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:57:24 --> syntax error, unexpected 'privates' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:58:56 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 12:59:09 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:59:10 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:59:18 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:59:19 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 12:59:20 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\SERVER\\htdoc...')
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#9 {main}
+CRITICAL - 2020-05-26 19:55:46 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\Database\BaseBuilder.php(1882): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Model.php(1716): CodeIgniter\Database\BaseBuilder->countAll()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\app\Models\Users.php(27): CodeIgniter\Model->__call('countAll', Array)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(36): App\Models\Users->get_user('rum.haidar@hotm...')
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#7 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#11 {main}
+CRITICAL - 2020-05-26 19:56:06 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\Database\BaseBuilder.php(1882): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\Model.php(1716): CodeIgniter\Database\BaseBuilder->countAll()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\app\Models\Users.php(27): CodeIgniter\Model->__call('countAll', Array)
+#5 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\Auth.php(36): App\Models\Users->get_user('rum.haidar@hotm...')
+#6 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\Auth->check_login()
+#7 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#11 {main}
+CRITICAL - 2020-05-26 20:20:17 --> Undefined variable: response
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\SERVER\\htdoc...', 23, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 20:21:01 --> Class 'App\Controllers\CodeIgniter\HTTP\Response' not found
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 20:21:03 --> Class 'App\Controllers\CodeIgniter\HTTP\Response' not found
+#0 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#5 {main}
+CRITICAL - 2020-05-26 20:21:39 --> Non-static method CodeIgniter\HTTP\Response::getStatusCode() should not be called statically
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'C:\\SERVER\\htdoc...', 23, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}
+CRITICAL - 2020-05-26 20:23:25 --> Non-static method CodeIgniter\HTTP\Response::getStatusCode() should not be called statically
+#0 C:\SERVER\htdocs\RESTful-API-JWT\app\Controllers\User.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'C:\\SERVER\\htdoc...', 23, Array)
+#1 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(914): App\Controllers\User->index()
+#2 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\SERVER\htdocs\RESTful-API-JWT\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\SERVER\htdocs\RESTful-API-JWT\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\SERVER\htdocs\RESTful-API-JWT\system\Commands\Server\rewrite.php(34): require_once('C:\\SERVER\\htdoc...')
+#6 {main}

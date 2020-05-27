@@ -47,7 +47,7 @@ $routes->get('/', 'Home::index');
  */
 
 // penyesuaian routing untuk resource, secara sederhana $routes->resource('user')
-$routes->resource('v1/users', ['controller' =>'User']);
+$routes->resource('users', ['controller' =>'User']);
 
 if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php'))
 {
