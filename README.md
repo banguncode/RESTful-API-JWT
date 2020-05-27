@@ -73,4 +73,4 @@ start http://localhost:8080; php spark serve
 Pull requests dipersilakan. Untuk perubahan besar, harap buka issue terlebih dahulu untuk membahas apa yang ingin diubah.
 
 ## License
-[GNU AGPLv3 ](https://choosealicense.com/licenses/gpl-3.0/)
+[GNU GPLv3 ](https://choosealicense.com/licenses/gpl-3.0/)
